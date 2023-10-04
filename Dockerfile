@@ -34,7 +34,7 @@ ENV VDIRSYNCER_CONFIG=/vdirsyncer/config \
         # Set cron file
         CRON_FILE="/etc/crontabs/vdirsyncer" \
         # Script to run after sync complete
-        POST_SYNC_SCRIPT_FILE=
+        POST_SYNC_SCRIPT_FILE= \
         # Set Pipx home
         PIPX_HOME="/opt/pipx" \
         # Set Pipx bin dir
